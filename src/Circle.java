@@ -53,8 +53,8 @@ public class Circle {
     }
 }
 
-// Command line1
-// Command line2
+// Comment line1
+// Comment line2
 class CircleTest {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -67,25 +67,49 @@ class CircleTest {
         circle.circumference = circle.calculateCircumference(circle.radius);
         circle2.circumference = circle2.calculateCircumference(circle2.radius);
 
-        /* Command line3 */
+        /* Comment line3 */
 
         double radiusFromArea = circle.calculateRadiusFromArea(circle.area);
         double radiusFromArea2 = circle2.calculateRadiusFromArea(circle2.area);
         double radiusFromCircumference = circle.calculateRadiusFromCircumference(circle.circumference);
         double radiusFromCircumference2 = circle2.calculateRadiusFromCircumference(circle2.circumference);
 
-        System.out.println("area: " + circle.area);
-        System.out.println("circumference: " + circle.circumference);
-        System.out.println("calculateRadiusFromArea's result: " + radiusFromArea);
-        System.out.println("calculateRadiusFromCircumference's result: " + radiusFromCircumference);
-
-        // Command line4
-        /* Command line5 */
+        // Comment line4
+        /* Comment line5 */
 
         System.out.println("\n************************************************");
         System.out.println("area: " + circle2.area);
-        System.out.println("circumference: " + circle2.circumference);
-        System.out.println("calculateRadiusFromArea's result: " + radiusFromArea2);
+        System.out.println("circumference: " + circle2.circumference); /* Comment line6 */
+        System.out.println("calculateRadiusFromArea's result: " + radiusFromArea2); /* Comment line7
+         Comment line8
+         */
         System.out.println("calculateRadiusFromCircumference's result: " + radiusFromCircumference2);
+        /* Comment line9
+         Comment line10
+         */
+
+        /* Comment line11
+         Comment line12
+         Comment line13 */
+
+        /*
+         Comment line14
+         Comment line15 */
+
+        System.out.println("calculateRadiusFromCircumference's result: " + radiusFromCircumference2); /*
+         Comment line16
+         Comment line17 */
+
+        System.out.println("calculateRadiusFromCircumference's result: " + radiusFromCircumference2); /* Comment line18
+         Comment line19
+         Comment line20 */
+
+        System.out.println("calculateRadiusFromCircumference's result: " + radiusFromCircumference2); /* Comment line21
+         Comment line22
+         */
+
+        System.out.println("calculateRadiusFromCircumference's result: " + radiusFromCircumference2); /*
+         Comment line23
+         */
     }
 }
