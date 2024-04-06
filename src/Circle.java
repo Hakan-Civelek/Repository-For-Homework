@@ -111,5 +111,8 @@ class CircleTest {
         System.out.println("calculateRadiusFromCircumference's result: " + radiusFromCircumference2); /*
          Comment line23
          */
+
+        System.out.println(); /*Comment line23*/ System.out.println("test1");
+        System.out.println("test");
     }
 }
